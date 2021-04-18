@@ -4,8 +4,6 @@ class Budget:
         self.balance_clothing = 0
         self.balance_entertainment = 0
 
-    def total_amount(self):
-        return self.balance_food + self.balance_clothing + self.balance_entertainment
 
     #methods for food category
     def deposit_food(self, amount):
